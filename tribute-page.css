@@ -48,8 +48,20 @@ p {
 #image {
   padding-top: 135px;
 }
+@media(max-width:800px){
+  #main-top{
+    height:30%;
+  }
+  #title{
+    font-size:25px;
+  }
+  #description{
+    font-size:8px;
+  }
+}
 @media (max-width: 800px) {
   #image {
+    margin-top:-14%;
     width: 70%;
   }
   #img-caption {
